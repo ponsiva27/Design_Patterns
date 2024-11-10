@@ -9,7 +9,7 @@ public class DBConnector {
            if(instance==null){
                instance = new DBConnector();
            }
-           return instance;
+           return null;
     }
 
 }
