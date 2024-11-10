@@ -13,6 +13,6 @@ public class DBConnector {
     }
 
     public void display(){
-         System.out.println("you have written singleton design pattern");
+         System.out.println("you have written singleton design patternq");
     }
 }
