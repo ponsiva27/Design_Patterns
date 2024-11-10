@@ -9,7 +9,10 @@ public class DBConnector {
            if(instance==null){
                instance = new DBConnector();
            }
-           return null;
+           return  instance ;
     }
 
+    public void display(){
+         System.out.println("you have written singleton design pattern");
+    }
 }
